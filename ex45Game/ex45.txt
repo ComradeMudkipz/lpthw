@@ -1,0 +1,8 @@
+# Requirements
+    
+    1. Use more than one file and use import to use them.
+    2. Use one class per room
+    3. Runner will need to know about rooms - make a class that
+       runs them and knows about them. (Consider having each room
+       return what room is next or set a variable of what room
+       is next.
