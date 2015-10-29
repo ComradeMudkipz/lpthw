@@ -48,7 +48,7 @@ class CentralCorridor(Scene):
         print "escape pod."
         print "\n"
         print "You're running down the central corridor to the Weapons Armory when"
-        print "a Gothon jumps out, red scaly skin, dark grimy teeth, and evil clow costume"
+        print "a Gothon jumps out, red scaly skin, dark grimy teeth, and evil clown costume"
         print "flowing around his hate filled body.  He's blocking the door to the"
         print "Armory and about to pull a weapon to blast you."
         print "\n"
@@ -98,11 +98,13 @@ class LaserWeaponArmory(Scene):
         print "You do a dive roll into the Weapon Armory, crouch and scan the room"
         print "for more Gothons that might be hiding.  It's dead quiet, quiet."
         print "You stand up and run to the far side of the room and find the"
-        print "neutron bomb in its container.  THere's a keypad lock on the box"
+        print "neutron bomb in its container.  There's a keypad lock on the box"
         print "and you need the code to get the bomb out.  If you get the code"
         print "wrong 10 times then the lock closes forever and you can't"
         print "get the bomb.  The code is 3 digits."
         code = "%d%d%d" % (randint(1,9), randint(1,9), randint(1,9))
+        # Uncomment to enable cheat. Be sure to comment above.
+        # code = '3 digits'
         guess = raw_input("[keypad]> ")
         guesses = 0
 
