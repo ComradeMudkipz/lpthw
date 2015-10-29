@@ -103,8 +103,10 @@ class LaserWeaponArmory(Scene):
         print "wrong 10 times then the lock closes forever and you can't"
         print "get the bomb.  The code is 3 digits."
         code = "%d%d%d" % (randint(1,9), randint(1,9), randint(1,9))
-        # Uncomment to enable cheat. Be sure to comment above.
-        # code = '3 digits'
+        # Uncomment to enable cheat.
+        # code = '3 digits'                     # Sets code to text '3 digits' 
+        # print "CHEAT ENABLED! CODE IS:"       # Reveals code
+        # print str(code)
         guess = raw_input("[keypad]> ")
         guesses = 0
 
