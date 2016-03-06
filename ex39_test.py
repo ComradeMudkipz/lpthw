@@ -19,11 +19,12 @@ hashmap.set(cities, 'NY', 'New York')
 hashmap.set(cities, 'OR', 'Portland')
 
 
-# 
+# print out some cities 
 print '-' * 10
 print "NY State has: %s" % hashmap.get(cities, 'NY')
 print "OR State has: %s" % hashmap.get(cities, 'OR')
-# 
+
+# print some states
 print '-' * 10
 print "Michigan's abbreviation has: %s" % hashmap.get(states, 'Michigan')
 print "Florida's abbreviation has: %s" % hashmap.get(states, 'Florida')
